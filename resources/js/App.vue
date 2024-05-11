@@ -125,7 +125,7 @@ export default {
             this.loading = true;
 
             axios
-                .post("https://qa.paneldecontrolem.cl/api/user/login", formData)
+                .post("https://qa.paneldecontrolaprende.cl/api/user/login", formData)
                 .then((response) => {
                     console.log(response.data.data.user.name);
 

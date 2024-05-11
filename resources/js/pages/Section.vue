@@ -217,7 +217,7 @@ export default {
 
             try {
                 const response = await axios.get(
-                    "https://qa.paneldecontrolem.cl/api/section?page="+this.currentPage,
+                    "https://qa.paneldecontrolaprende.cl/api/section?page="+this.currentPage,
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,
@@ -239,7 +239,7 @@ export default {
                 
                 try {
                     const response = await axios.get(
-                        "https://qa.paneldecontrolem.cl/api/section/copy/" + id,
+                        "https://qa.paneldecontrolaprende.cl/api/section/copy/" + id,
                         {
                             headers: {
                                 Authorization: `Bearer ${token}`,
@@ -259,7 +259,7 @@ export default {
             
             try {
                 const response = await axios.get(
-                    "https://qa.paneldecontrolem.cl/api/section/move_down/" + id,
+                    "https://qa.paneldecontrolaprende.cl/api/section/move_down/" + id,
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,
@@ -271,7 +271,7 @@ export default {
                 
                 try {
                     const response = await axios.get(
-                        "https://qa.paneldecontrolem.cl/api/section/",
+                        "https://qa.paneldecontrolaprende.cl/api/section/",
                         {
                             headers: {
                                 Authorization: `Bearer ${token}`,
@@ -294,7 +294,7 @@ export default {
             
             try {
                 const response = await axios.get(
-                    "https://qa.paneldecontrolem.cl/api/section/move_up/" + id,
+                    "https://qa.paneldecontrolaprende.cl/api/section/move_up/" + id,
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,
@@ -306,7 +306,7 @@ export default {
                 
                 try {
                     const response = await axios.get(
-                        "https://qa.paneldecontrolem.cl/api/section/",
+                        "https://qa.paneldecontrolaprende.cl/api/section/",
                         {
                             headers: {
                                 Authorization: `Bearer ${token}`,

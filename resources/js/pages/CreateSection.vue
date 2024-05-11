@@ -658,7 +658,7 @@ export default {
 
                 try {
                 const response = await axios.post(
-                        "https://qa.paneldecontrolem.cl/api/audit/store",
+                        "https://qa.paneldecontrolaprende.cl/api/audit/store",
                         formData,
                         {
                             headers: {
@@ -695,7 +695,7 @@ export default {
 
             try {
                 const response = await axios.get(
-                    "https://qa.paneldecontrolem.cl/api/section",
+                    "https://qa.paneldecontrolaprende.cl/api/section",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,
@@ -718,7 +718,7 @@ export default {
 
             try {
                 const response = await axios.get(
-                    "https://qa.paneldecontrolem.cl/api/region/",
+                    "https://qa.paneldecontrolaprende.cl/api/region/",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,
@@ -745,7 +745,7 @@ export default {
             for (const region_id of region_ids) {
                 try {
                     const response = await axios.get(
-                        "https://qa.paneldecontrolem.cl/api/commune/" + region_id,
+                        "https://qa.paneldecontrolaprende.cl/api/commune/" + region_id,
                             {
                                 headers: {
                                     Authorization: `Bearer ${token}`,
@@ -805,7 +805,7 @@ export default {
 
             try {
                 const response = await axios.post(
-                    "https://qa.paneldecontrolem.cl/api/section/store",
+                    "https://qa.paneldecontrolaprende.cl/api/section/store",
                     formData,
                     {
                         headers: {

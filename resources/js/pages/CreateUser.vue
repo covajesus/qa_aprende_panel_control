@@ -166,7 +166,7 @@ export default {
 
                 try {
                 const response = await axios.post(
-                        "https://qa.paneldecontrolem.cl/api/audit/store",
+                        "https://qa.paneldecontrolaprende.cl/api/audit/store",
                         formData,
                         {
                             headers: {
@@ -188,7 +188,7 @@ export default {
             if (token) {
                 try {
                     const response = await axios.post(
-                        "https://qa.paneldecontrolem.cl/api/get_all",
+                        "https://qa.paneldecontrolaprende.cl/api/get_all",
                         {
                             headers: {
                                 Authorization: `Bearer ${token}`,
@@ -221,7 +221,7 @@ export default {
 
                 try {
                     const response = await axios.post(
-                        "https://qa.paneldecontrolem.cl/api/user/store",
+                        "https://qa.paneldecontrolaprende.cl/api/user/store",
                         formData,
                         {
                             headers: {

@@ -190,7 +190,7 @@ export default {
             if (token) {
                 try {
                     const response = await axios.get(
-                        "https://qa.paneldecontrolem.cl/api/user/",
+                        "https://qa.paneldecontrolaprende.cl/api/user/",
                         {
                             headers: {
                                 Authorization: `Bearer ${token}`,
