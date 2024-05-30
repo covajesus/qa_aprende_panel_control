@@ -774,6 +774,8 @@ class ContentController extends Controller
             }
 
             if($request->hasFile('pdf')) { 
+                echo 1;
+                
                 Storage::disk('local')->putFileAs(
                     'public',
                     $request->pdf,
